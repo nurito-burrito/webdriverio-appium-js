@@ -1,18 +1,18 @@
-## webdriverio-appium-js
+# webdriverio-appium-js
 
-# About
-Currently this framework has been developed to run scripts in ANDROID platform with an emulator.
-The calculator app APK use in this project can be found at: https://m.apkpure.com/calculator/com.google.android.calculator
+## About
+Currently, this framework has been developed to run scripts in ANDROID platform with an emulator.
+The calculator app APK used in this project can be found at: https://m.apkpure.com/calculator/com.google.android.calculator
 
 The tests run both on Android Native App.
 
-# Tech Stack
-Appium - This is the node server which interacts with the mobile devices
-WebdriverIO - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
-JavaScript - (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.
+## Tech Stack
+    Appium - This is the node server which interacts with the mobile devices
+    WebdriverIO - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
+    JavaScript - (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.
 
-## Getting Started
-# Pre-requisites
+# Getting Started
+## Pre-requisites
 1. NodeJS installed globally in the system. https://nodejs.org/en/download/
 
 2. JAVA(jdk) installed in the system.
@@ -23,14 +23,14 @@ JavaScript - (JS) is a lightweight interpreted (or just-in-time compiled) progra
 
 Tip: Install ```npm install -g appium-doctor``` and run it from the command-line which checks if your java jdk and android sdk paths are set correctly or not.
 
-## Installation
-# Setup Scripts
+# Installation
+## Setup Scripts
 Clone the repository into a folder
 Go inside the folder and run following command from terminal/command prompt
 ```npm install``` 
 All the dependencies from package.json would be installed in node_modules folder.
 
-## Run Tests
+# Run Tests
 
 You will first need to create and open an android emulator (https://developer.android.com/studio/run/managing-avds) to match with the current capabilities set in config.js. 
 Or change it accordingly with whichever emulator or real device you'd like to use.
@@ -56,7 +56,7 @@ To run the tests:
 https://github.com/nurito-burrito/webdriverio-appium-js/assets/44758040/f452c473-7a02-4ec7-a506-209651209f1e
 
 
-## Reports
+# Reports
 Currently this project has been integrated with Allure-Reports. WebdriverIO's Allure Reporter helps us generate detailed reports of our mobile automated tests. 
 Once the test execution is finished you would find the allure-results folder generated automatically with screenshots of the failure attached.
 Then you would have to run the following command to generate HTML Report
