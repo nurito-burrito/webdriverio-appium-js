@@ -4,8 +4,6 @@
 Currently, this framework has been developed to run scripts in ANDROID platform with an emulator.
 The calculator app APK used in this project can be found at: https://m.apkpure.com/calculator/com.google.android.calculator
 
-The tests run both on Android Native App.
-
 ## Tech Stack
 - Appium - This is the node server which interacts with the mobile devices
 - WebdriverIO - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
