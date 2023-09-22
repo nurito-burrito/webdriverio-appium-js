@@ -7,13 +7,13 @@ The calculator app APK used in this project can be found at: https://m.apkpure.c
 The tests run both on Android Native App.
 
 ## Tech Stack
-    Appium - This is the node server which interacts with the mobile devices
-    WebdriverIO - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
-    JavaScript - (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.
+- Appium - This is the node server which interacts with the mobile devices
+- WebdriverIO - It is the selenium webdriver api bindings for node.js, It has a very simple api which could be used to automate web & browser apps in a fast and scalable way.
+- JavaScript - (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.
 
 # Getting Started
 ## Pre-requisites
-1. NodeJS installed globally in the system. https://nodejs.org/en/download/
+1. NodeJS is installed globally in the system. https://nodejs.org/en/download/
 
 2. JAVA(jdk) installed in the system.
 
@@ -26,13 +26,13 @@ Tip: Install ```npm install -g appium-doctor``` and run it from the command-line
 # Installation
 ## Setup Scripts
 Clone the repository into a folder
-Go inside the folder and run following command from terminal/command prompt
+Go inside the folder and run the following command from terminal/command prompt
 ```npm install``` 
 All the dependencies from package.json would be installed in node_modules folder.
 
 # Run Tests
 
-You will first need to create and open an android emulator (https://developer.android.com/studio/run/managing-avds) to match with the current capabilities set in config.js. 
+You will first need to create and open an Android emulator (https://developer.android.com/studio/run/managing-avds) to match with the current capabilities set in config.js. 
 Or change it accordingly with whichever emulator or real device you'd like to use.
 
 ```
@@ -57,9 +57,9 @@ https://github.com/nurito-burrito/webdriverio-appium-js/assets/44758040/f452c473
 
 
 # Reports
-Currently this project has been integrated with Allure-Reports. WebdriverIO's Allure Reporter helps us generate detailed reports of our mobile automated tests. 
-Once the test execution is finished you would find the allure-results folder generated automatically with screenshots of the failure attached.
-Then you would have to run the following command to generate HTML Report
+Currently, this project has been integrated with Allure-Reports. WebdriverIO's Allure Reporter helps us generate detailed reports of our mobile automated tests. 
+Once the test execution is finished you will find the allure-results folder generated automatically with screenshots of the failure attached.
+Then you would have to run the following command to generate an HTML Report
 
 ```npx allure generate allure-results --clean && npx allure open```
 
